@@ -22,7 +22,7 @@ variable "gce_region_zone" {
   description = "GCE Region to use"
 
   # us-central1-[a,b,c,f], us-east1-[a,b,c]
-  default = "us-central1-f"
+  default = "us-east1-b"
 }
 
 variable "gce_machine_type_minecraft" {
